@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": null,
+  "eslint.format.enable": true,
+  "files.eol": "\r\n",
+  "prettier.endOfLine": "crlf",
+  "eslint.enable": false
+}
