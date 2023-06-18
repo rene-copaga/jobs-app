@@ -1,8 +1,8 @@
 const path = require('path');
-const TsconfigPathsPlugin = require('tsconfig-paths-webpackplugin');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 module.exports = {
-  stories: ['../src/**/*.stories.tsx)'],
+  stories: ['../src/**/*.stories.tsx'],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
@@ -27,5 +27,8 @@ module.exports = {
       })
     );
     return config;
+  },
+  typescript: {
+    reactDocgen: 'react-docgen-typescript-plugin',
   },
 };
